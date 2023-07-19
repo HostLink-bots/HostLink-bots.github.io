@@ -1,7 +1,152 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HostLink</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="HostLink.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="HostLink.jpg" width="100re"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tests">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1 class="typing"></h1>
+            <p>HostLink is a cutting-edge service that simplifies the management of Airbnb properties. Our innovative chatbot takes care of answering repetitive questions, allowing property owners to focus on more essential tasks. With HostLink, you can streamline your workflow, enhance guest experiences, and maximize your property's potential, all with ease and efficiency.</p>
+            <a href="https://mediafiles.botpress.cloud/ba422542-9e20-43d1-9729-9dbd39be6a50/webchat/bot.html" class="btn btn-primary">Try out Example</a>
+  
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id= "features" class="features">
+        <div class="container">
+            <h2>Key Features</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature f1 enlarge-on-hover">
+                        <img src="Brain.svg" alt="Feature Icon">
+                        <h3>Intelligent Property Answers</h3>
+                        <p>HostLink bots use a state of the art LLM to answer any question about your property creatively and reliably in 100+ languages.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature f2 enlarge-on-hover">
+                        <img src="Clock.png" alt="Feature Icon">
+                        <h3>24/7 Support</h3>
+                        <p>You can rest assured that your bots will answer questions at any time of the day, any day of the week.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature f3 enlarge-on-hover">
+                        <img src="Link.png" alt="Feature Icon">
+                        <h3>Seamless Integration</h3>
+                        <p>We offer a custom link for your customers to chat with your bots, and the possibility to integrate them directly into WhatsApp and Telegram.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="path_to_photo" alt="Team Member Photo">
+                        <h3>Daniel Correa</h3>
+                        <p>Position and Expertise</p>
+                        <p>Brief description of Team Member 1</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="path_to_photo" alt="Team Member Photo">
+                        <h3>Alex Scofield</h3>
+                        <p>Position and Expertise</p>
+                        <p>Brief description of Team Member 2</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="team-member">
+                        <img src="path_to_photo" alt="Team Member Photo">
+                        <h3>Lucas Charbonnier</h3>
+                        <p>Position and Expertise</p>
+                        <p>Brief description of Team Member 3</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alpha Tests Section -->
+    <section id="tests" class="alpha-tests">
+        <div class="container">
+            <h2>Alpha Tests</h2>
+            <p>
+                We are currently running alpha tests for out innovative property bots. This means that you can sign up for free and experience the future of property management
+                with a fully functional HostLink bot.
+                <br>
+                Send us an email saying that you are interested and we will get back to you in less than 24 hours!
+            </p>
+            <a href="mailto:hostlink-bots@gmail.com?subject=I%20want%20a%20bot" class="btn btn-primary">Sign Up</a>
+        </div>
+    </section>
+
+    <section class="contact-us">
+      <div class="container">
+        <h2>Follow Us on Instagram</h2>
+        <div class="social-icons">
+          <a href="https://instagram.com/your-account" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i>
+            <br>
+            <font size="4">@hostlink_official</font>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
