@@ -1,0 +1,163 @@
+/* Custom styles for the website */
+
+/* Hero Section Styles */
+.hero {
+  background-color: #f8f8f8;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero .btn {
+  font-size: 16px;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+/* Features Section Styles */
+.features {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.features h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.features .feature {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features img {
+  width: 80px;
+  height: 80px;
+}
+
+/* About Us Section Styles */
+.about-us {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about-us .team-member {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-us img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* Alpha Tests Section Styles */
+.alpha-tests {
+  background-color: #333;
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.alpha-tests h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.alpha-tests p {
+  margin-bottom: 30px;
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.contact-us h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Footer Section Styles */
+.footer {
+  background-color: #f8f8f8;
+  padding: 30px 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.footer .nav-item {
+  margin-bottom: 10px;
+}
+
+/* Animation Styles */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(40px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.fade-in {
+  animation: fade-in 1s ease-in-out;
+  opacity: 0;
+}
+
+@keyframes fade-in {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+.enlarge-on-hover {
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.1);
+}
+
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  font-size: 40px; /* Adjust the size as needed */
+  color: #000; /* Adjust the color as needed */
+}
