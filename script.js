@@ -36,7 +36,7 @@ window.addEventListener('DOMContentLoaded', () => {
 // Custom JavaScript for the website
 const typingElement = document.querySelector('.typing');
 
-const text = "Answer Once, Answer Forever";
+const text = "Votre Accueil, Notre Passion.";
 const typingSpeed = 100; // Adjust the typing speed as needed
 
 let charIndex = 0;
