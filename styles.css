@@ -1,15 +1,21 @@
 /* Custom styles for the website */
 
 /* Hero Section Styles */
+
+
 .hero {
-  background-color: #f8f8f8;
   padding: 80px 0;
   text-align: center;
+  color: white;
+  background: linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(65,69,255,1) 0%, rgba(254,81,230,1) 87%);
+}
+
+.features h3 {
+  color: blue;
 }
 
 .hero h1 {
   font-size: 42px;
-  color: #333;
   margin-bottom: 20px;
 }
 
@@ -22,7 +28,6 @@
 /* Features Section Styles */
 .features {
   padding: 80px 0;
-  background-color: #fff;
 }
 
 .features h2 {
@@ -69,10 +74,10 @@
 
 /* Alpha Tests Section Styles */
 .alpha-tests {
-  background-color: #333;
   color: #fff;
   padding: 80px 0;
   text-align: center;
+  background: linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(65,69,255,1) 0%, rgba(254,81,230,1) 87%);
 }
 
 .alpha-tests h2 {
@@ -160,4 +165,6 @@
   display: inline-block;
   font-size: 40px; /* Adjust the size as needed */
   color: #000; /* Adjust the color as needed */
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
